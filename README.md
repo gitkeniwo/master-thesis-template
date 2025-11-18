@@ -1,6 +1,13 @@
 # Master Thesis LaTeX 
+[![License: GLWT](https://img.shields.io/badge/License-GLWT-hotpink.svg)](https://github.com/me-shaon/GLWTPL/blob/master/LICENSE)
 
 ## Prerequisites
+
+OS Requirement: macOS
+
+I wrote this on a Mac. I compiled this on a Mac. It works on my Mac.
+
+If you are using **Windows**, I cannot help you. If you are using **Linux**, apparently you can help yourself.
 
 ### MacTeX Installation
 
@@ -275,8 +282,14 @@ mkdir build/
 
 ## License
 
-This thesis template is based on the TU/e Style Master Thesis template for LaTeX (Public version 1.0, 2010-2013 by Thijs Nugteren and Joos Buijs).
+**GLWTPL** 
 
-## Contributing
+This template worked for me. It is provided as is without warranty of any kind. If it breaks, you get to keep both pieces.
 
-This is a personal thesis project. If you're using this template for your own thesis, feel free to fork and modify as needed.
+### Acknowledgments
+
+This template is scraped from the famous **TU/e Style Master Thesis template for LaTeX** (Public version 1.0, 2010-2013).
+
+* **Original Authors**: Thijs Nugteren and Joos Buijs
+* **Original Source**: [Joos Buijs's Blog](https://joosbuijs.wordpress.com/2013/04/01/latex-template-for-tue-style-master-thesis/)
+* **Original License**: The original authors explicitly stated: *You are free to use and adjust this style without referencing (although it would be nice of course).*
