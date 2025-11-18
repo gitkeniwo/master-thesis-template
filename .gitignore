@@ -1,0 +1,68 @@
+# LaTeX build directory
+build/
+
+# Target pdf
+thesis.pdf
+
+# LaTeX auxiliary files
+*.aux
+*.lof
+*.lot
+*.fls
+*.out
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+.*.lb
+
+# Bibliography auxiliary files
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+*.run.xml
+
+# Build tool auxiliary files
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+# Output files (keep PDF in repo if needed, otherwise uncomment)
+# *.pdf
+
+# Hyperref
+*.brf
+
+# Knitr
+*-concordance.tex
+
+# Makeindex
+*.idx
+*.ilg
+*.ind
+
+# Glossaries
+*.acn
+*.acr
+*.glg
+*.glo
+*.gls
+*.glsdefs
+*.lzo
+*.lzs
+
+# Nomenclature
+*.nlg
+*.nlo
+*.nls
+
+# Revision control
+*.backup
+*.bak
+*.sav

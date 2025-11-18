@@ -1,0 +1,120 @@
+\documentclass[a4paper,10pt,twoside]{report}
+
+\usepackage{thesis}
+
+\newcommand{\shortdoctitle}{Master's Thesis}
+\newcommand{\doctitle}{My Thesis Title}
+\newcommand{\docsubtitle}{Master Thesis}
+
+\newcommand{\me}{Author Name}
+\newcommand{\keywords}{keyword1, keyword2, keyword3}
+\newcommand{\version}{Version 1.0}
+\newcommand{\monthYear}{Month Year}
+
+\newcommand{\firstCommitteeMember}{First Supervisor}
+\newcommand{\secondCommitteeMember}{Second Supervisor}
+\newcommand{\thirdCommitteeMember}{Third Supervisor}
+
+\author{\me}
+
+\hypersetup
+{
+    pdfauthor={\me},
+    pdftitle={\shortdoctitle},
+    pdfsubject={\doctitle},
+    pdfkeywords={\keywords}
+}
+
+
+\usepackage[a4paper, left=1.8cm, right=1.8cm, top=2.5cm, bottom=2.5cm]{geometry}
+\setlength{\columnsep}{0.9cm} % Column separation
+\emergencystretch=3em         % Prevent overfull hbox
+\sloppy 
+
+\begin{document}
+\pagenumbering{roman}
+\include{titlepage}
+\addcontentsline{toc}{chapter}{Cover}
+
+\normalsize
+
+\clearemptydoublepage
+
+\chapter*{Abstract}\label{chapter:abstract}
+\addcontentsline{toc}{chapter}{Abstract}
+\input{chapters/0-abstract}
+
+\clearemptydoublepage
+
+\chapter*{Preface}\label{chapter:preface}
+\addcontentsline{toc}{chapter}{Preface}
+\input{chapters/0-preface}
+
+\clearemptydoublepage
+
+\tableofcontents
+
+\clearemptydoublepage
+
+\listoffigures
+
+\clearemptydoublepage
+
+\listoftables
+
+\clearemptydoublepage
+
+\lstlistoflistings
+
+\clearemptydoublepage
+
+\twocolumn
+
+\chapter{Introduction}\label{chapter:introduction}
+\setcounter{page}{0}
+\pagenumbering{arabic}
+\input{chapters/1-introduction}
+
+\clearemptydoublepage
+
+\chapter{Background}\label{chapter:background}
+\input{chapters/2-background}
+
+\clearemptydoublepage
+
+\chapter{Related Work}\label{chapter:related_work}
+\input{chapters/3-related-work}
+
+\clearemptydoublepage
+
+\chapter{Methodology}\label{chapter:methodology}
+\input{chapters/4-methodology}
+
+\clearemptydoublepage
+
+\chapter{Results and Evaluation}\label{chapter:results_evaluation}
+\input{chapters/5-results-evaluation}
+
+\clearemptydoublepage
+
+\chapter{Conclusions}\label{chapter:conclusions}
+\input{chapters/6-conclusions}
+
+\clearemptydoublepage
+
+\chapter{Discussion}\label{chapter:discussion}
+\input{chapters/7-discussion}
+
+\clearemptydoublepage
+
+\bibliographystyle{plain}
+\bibliography{references}
+
+\clearemptydoublepage
+
+\appendix
+\addcontentsline{toc}{chapter}{Appendix}
+
+\input{appendices/main}
+
+\end{document}
